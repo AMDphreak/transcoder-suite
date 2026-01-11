@@ -30,7 +30,7 @@
 					"-ExecutionPolicy",
 					"Bypass",
 					"-File",
-					"${workspaceFolder}/.convert.ps1"
+					"${workspaceFolder}/app/convert.ps1"
 				],
 				"group": "none",
 				"presentation": {
