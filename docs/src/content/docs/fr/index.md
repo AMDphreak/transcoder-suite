@@ -5,7 +5,7 @@ template: splash
 hero:
   tagline: Archivage de haute qualité et traitement par lots simplifié.
   image:
-    file: ../../../../assets/houston.webp
+    file: ../../../assets/houston.webp
   actions:
     - text: Commencer
       link: /fr/guides/example/
