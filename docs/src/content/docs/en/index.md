@@ -5,10 +5,10 @@ template: splash
 hero:
   tagline: High-quality archival and batch processing made easy.
   image:
-    file: ../../assets/houston.webp
+    file: ../../../assets/houston.webp
   actions:
     - text: Get Started
-      link: /guides/example/
+      link: /en/guides/example/
       icon: right-arrow
       variant: primary
     - text: View on GitHub

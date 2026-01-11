@@ -7,9 +7,9 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Transcoder Suite',
-			defaultLocale: 'root',
+			defaultLocale: 'en',
 			locales: {
-				root: { label: 'English', lang: 'en' },
+				en: { label: 'English', lang: 'en' },
 				es: { label: 'Español', lang: 'es' },
 				fr: { label: 'Français', lang: 'fr' },
 			},
@@ -21,12 +21,12 @@ export default defineConfig({
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Example Guide', slug: 'en/guides/example' },
 					],
 				},
 				{
 					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					autogenerate: { directory: 'en/reference' },
 				},
 			],
 		}),
