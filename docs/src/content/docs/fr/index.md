@@ -1,9 +1,9 @@
 ---
 title: Bienvenue dans Transcoder Suite
-description: Transcodage vid菃꧂漀 洀漀搀甀氀愀椀爀攀 瀀椀氀漀琀쌀슃© par des playbooks pour PowerShell 7.
+description: Transcodage vidéo modulaire piloté par des playbooks pour PowerShell 7.
 template: splash
 hero:
-  tagline: Archivage de haute qualit菃꧂ 攀琀 琀爀愀椀琀攀洀攀渀琀 瀀愀爀 氀漀琀猀 猀椀洀瀀氀椀昀椀쌀슃©.
+  tagline: Archivage de haute qualité et traitement par lots simplifié.
   image:
     file: ../../../../assets/houston.webp
   actions:
@@ -18,4 +18,19 @@ hero:
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Prochaines 菃꧂琀愀瀀攀猀਀਀㰀䌀愀爀搀䜀爀椀搀 猀琀愀最最攀爀㸀਀ऀ㰀䌀愀爀搀 琀椀琀氀攀㴀∀倀爀漀昀椀氀猀 䴀漀搀甀氀愀椀爀攀猀∀ 椀挀漀渀㴀∀猀攀琀琀椀渀最∀㸀਀ऀऀ匀쌀슃©parez les param菃ꣂ琀爀攀猀 瘀椀搀쌀슃©o et audio en composants JSON r菃꧂甀琀椀氀椀猀愀戀氀攀猀⸀਀ऀ㰀⼀䌀愀爀搀㸀਀ऀ㰀䌀愀爀搀 琀椀琀氀攀㴀∀伀爀挀栀攀猀琀爀愀琀椀漀渀 搀攀猀 倀氀愀礀戀漀漀欀猀∀ 椀挀漀渀㴀∀愀搀搀ⴀ搀漀挀甀洀攀渀琀∀㸀਀ऀऀ䌀漀洀戀椀渀攀稀 搀攀猀 瀀爀漀昀椀氀猀 搀愀渀猀 搀攀猀 爀攀挀攀琀琀攀猀 渀漀洀洀쌀슃©es pour diff菃꧂爀攀渀琀猀 挀愀猀 搀✀甀琀椀氀椀猀愀琀椀漀渀⸀਀ऀ㰀⼀䌀愀爀搀㸀਀ऀ㰀䌀愀爀搀 琀椀琀氀攀㴀∀䜀攀猀琀椀漀渀 搀攀 匀攀猀猀椀漀渀∀ 椀挀漀渀㴀∀氀椀猀琀ⴀ昀漀爀洀愀琀∀㸀਀ऀऀ吀爀愀瘀愀甀砀 爀攀瀀爀攀渀愀戀氀攀猀 愀瘀攀挀 栀椀猀琀漀爀椀焀甀攀 挀漀洀瀀氀攀琀 攀琀 樀漀甀爀渀愀甀砀 搀✀攀爀爀攀甀爀猀⸀਀ऀ㰀⼀䌀愀爀搀㸀਀ऀ㰀䌀愀爀搀 琀椀琀氀攀㴀∀䠀愀甀琀攀 倀攀爀昀漀爀洀愀渀挀攀∀ 椀挀漀渀㴀∀爀漀挀欀攀琀∀㸀਀ऀऀ伀瀀琀椀洀椀猀쌀슃© pour SVT-AV1 et l'efficacit菃꧂ 搀攀猀 瀀爀漀挀攀猀猀攀甀爀猀 洀甀氀琀椀挀匀甁爀猀⸀਀ऀ㰀⼀䌀愀爀搀㸀਀㰀⼀䌀愀爀搀䜀爀椀搀㸀਀
+## Prochaines étapes
+
+<CardGrid stagger>
+	<Card title="Profils Modulaires" icon="setting">
+		Séparez les paramètres vidéo et audio en composants JSON réutilisables.
+	</Card>
+	<Card title="Orchestration des Playbooks" icon="add-document">
+		Combinez des profils dans des recettes nommées pour différents cas d'utilisation.
+	</Card>
+	<Card title="Gestion de Session" icon="list-format">
+		Travaux reprenables avec historique complet et journaux d'erreurs.
+	</Card>
+	<Card title="Haute Performance" icon="rocket">
+		Optimisé pour SVT-AV1 et l'efficacité des processeurs multicœurs.
+	</Card>
+</CardGrid>

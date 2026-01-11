@@ -1,8 +1,36 @@
 ---
 title: Bienvenido a Transcoder Suite
-description: Transcodificaci菃돂渀 搀攀 瘀椀搀攀漀 洀漀搀甀氀愀爀 椀洀瀀甀氀猀愀搀愀 瀀漀爀 瀀氀愀礀戀漀漀欀猀 瀀愀爀愀 倀漀眀攀爀匀栀攀氀氀 㜀⸀਀琀攀洀瀀氀愀琀攀㨀 猀瀀氀愀猀栀਀栀攀爀漀㨀਀  琀愀最氀椀渀攀㨀 䄀爀挀栀椀瘀漀 搀攀 愀氀琀愀 挀愀氀椀搀愀搀 礀 瀀爀漀挀攀猀愀洀椀攀渀琀漀 瀀漀爀 氀漀琀攀猀 昀愀挀椀氀椀琀愀搀漀⸀਀  椀洀愀最攀㨀਀    昀椀氀攀㨀 ⸀⸀⼀⸀⸀⼀⸀⸀⼀⸀⸀⼀愀猀猀攀琀猀⼀栀漀甀猀琀漀渀⸀眀攀戀瀀਀  愀挀琀椀漀渀猀㨀਀    ⴀ 琀攀砀琀㨀 䔀洀瀀攀稀愀爀਀      氀椀渀欀㨀 ⼀攀猀⼀最甀椀搀攀猀⼀攀砀愀洀瀀氀攀⼀਀      椀挀漀渀㨀 爀椀最栀琀ⴀ愀爀爀漀眀਀      瘀愀爀椀愀渀琀㨀 瀀爀椀洀愀爀礀਀    ⴀ 琀攀砀琀㨀 嘀攀爀 攀渀 䜀椀琀䠀甀戀਀      氀椀渀欀㨀 栀琀琀瀀猀㨀⼀⼀最椀琀栀甀戀⸀挀漀洀⼀愀洀搀瀀栀爀攀愀欀⼀琀爀愀渀猀挀漀搀攀爀ⴀ猀甀椀琀攀਀      椀挀漀渀㨀 攀砀琀攀爀渀愀氀਀ⴀⴀⴀ਀਀椀洀瀀漀爀琀 笀 䌀愀爀搀Ⰰ 䌀愀爀搀䜀爀椀搀 紀 昀爀漀洀 ✀䀀愀猀琀爀漀樀猀⼀猀琀愀爀氀椀最栀琀⼀挀漀洀瀀漀渀攀渀琀猀✀㬀਀਀⌀⌀ 匀椀最甀椀攀渀琀攀猀 瀀愀猀漀猀਀਀㰀䌀愀爀搀䜀爀椀搀 猀琀愀最最攀爀㸀਀ऀ㰀䌀愀爀搀 琀椀琀氀攀㴀∀倀攀爀昀椀氀攀猀 䴀漀搀甀氀愀爀攀猀∀ 椀挀漀渀㴀∀猀攀琀琀椀渀最∀㸀਀ऀऀ匀攀瀀愀爀攀 氀漀猀 愀樀甀猀琀攀猀 搀攀 瘀椀搀攀漀 礀 愀甀搀椀漀 攀渀 挀漀洀瀀漀渀攀渀琀攀猀 䨀匀伀一 爀攀甀琀椀氀椀稀愀戀氀攀猀⸀਀ऀ㰀⼀䌀愀爀搀㸀਀ऀ㰀䌀愀爀搀 琀椀琀氀攀㴀∀伀爀焀甀攀猀琀愀挀椀쌀슃³n de Playbooks" icon="add-document">
+description: Transcodificación de video modular impulsada por playbooks para PowerShell 7.
+template: splash
+hero:
+  tagline: Archivo de alta calidad y procesamiento por lotes facilitado.
+  image:
+    file: ../../../../assets/houston.webp
+  actions:
+    - text: Empezar
+      link: /es/guides/example/
+      icon: right-arrow
+      variant: primary
+    - text: Ver en GitHub
+      link: https://github.com/amdphreak/transcoder-suite
+      icon: external
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Siguientes pasos
+
+<CardGrid stagger>
+	<Card title="Perfiles Modulares" icon="setting">
+		Separe los ajustes de video y audio en componentes JSON reutilizables.
+	</Card>
+	<Card title="Orquestación de Playbooks" icon="add-document">
 		Combine perfiles en recetas con nombre para diferentes casos de uso.
 	</Card>
-	<Card title="Gesti菃돂渀 搀攀 匀攀猀椀漀渀攀猀∀ 椀挀漀渀㴀∀氀椀猀琀ⴀ昀漀爀洀愀琀∀㸀਀ऀऀ吀爀愀戀愀樀漀猀 爀攀愀渀甀搀愀戀氀攀猀 挀漀渀 栀椀猀琀漀爀椀愀氀 挀漀洀瀀氀攀琀漀 礀 爀攀最椀猀琀爀漀猀 搀攀 昀愀氀氀漀猀⸀਀ऀ㰀⼀䌀愀爀搀㸀਀ऀ㰀䌀愀爀搀 琀椀琀氀攀㴀∀䄀氀琀漀 刀攀渀搀椀洀椀攀渀琀漀∀ 椀挀漀渀㴀∀爀漀挀欀攀琀∀㸀਀ऀऀ伀瀀琀椀洀椀稀愀搀漀 瀀愀爀愀 匀嘀吀ⴀ䄀嘀㄀ 礀 攀昀椀挀椀攀渀挀椀愀 攀渀 䌀倀唀猀 洀甀氀琀椀渀쌀슃ºcleo.
+	<Card title="Gestión de Sesiones" icon="list-format">
+		Trabajos reanudables con historial completo y registros de fallos.
+	</Card>
+	<Card title="Alto Rendimiento" icon="rocket">
+		Optimizado para SVT-AV1 y eficiencia en CPUs multinúcleo.
 	</Card>
 </CardGrid>
