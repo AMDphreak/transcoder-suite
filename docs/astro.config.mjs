@@ -9,7 +9,7 @@ export default defineConfig({
 			title: 'Transcoder Suite',
 			defaultLocale: 'en',
 			locales: {
-				en: { label: 'English' },
+				root: { label: 'English', lang: 'en' },
 				es: { label: 'Español', lang: 'es' },
 				fr: { label: 'Français', lang: 'fr' },
 			},
