@@ -1,0 +1,39 @@
+= Transcoder Suite Documentation Site
+:toc: left
+
+This directory contains the source code for the Transcoder Suite documentation site, built with Astro and Starlight.
+
+The live documentation is available at: **https://amdphreak.github.io/transcoder-suite/**
+
+== 🚀 Getting Started
+
+To run the documentation site locally:
+
+[source,bash]
+----
+pnpm install
+pnpm dev
+----
+
+The dev server will start at `http://localhost:4321`.
+
+== 🧞 Commands
+
+|===
+| Command | Action
+
+| `pnpm install` | Installs dependencies
+| `pnpm dev` | Starts local dev server
+| `pnpm build` | Build the production site to `./dist/`
+| `pnpm preview` | Preview the build locally
+|===
+
+== 📁 Project Structure
+
+* `public/`: Static assets (favicons, etc.).
+* `src/assets/`: Images and other processed assets.
+* `src/content/docs/`: Documentation content (Markdown).
+** `en/`: English documentation.
+** `es/`: Spanish documentation.
+** `fr/`: French documentation.
+* `astro.config.mjs`: Starlight configuration.
