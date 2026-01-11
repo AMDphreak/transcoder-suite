@@ -1,0 +1,29 @@
+= Transcoder App
+:toc: left
+
+The core PowerShell application for the Transcoder Suite.
+
+== Components
+
+* `convert.ps1`: The main orchestration script.
+* `playbooks/`: JSON files defining conversion recipes.
+* `profiles/`: JSON files defining individual encoder settings for video and audio.
+* `convert_jobs/`: (Generated) JSON files tracking session progress.
+
+== Usage
+
+Run the script from the root of the repository:
+
+[source,powershell]
+----
+.\app\convert.ps1
+----
+
+Or from within the `app` folder:
+
+[source,powershell]
+----
+.\convert.ps1
+----
+
+The script will automatically find playbooks and profiles relative to its location.
