@@ -7,7 +7,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Transcoder Suite',
-			defaultLocale: 'en',
+			defaultLocale: 'root',
 			locales: {
 				root: { label: 'English', lang: 'en' },
 				es: { label: 'Español', lang: 'es' },
