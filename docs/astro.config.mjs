@@ -12,26 +12,36 @@ export default defineConfig({
 			title: 'Transcoder Suite',
 			defaultLocale: 'en',
 			locales: {
-				en: { label: 'English', lang: 'en' },
-				es: { label: 'Español', lang: 'es' },
-				fr: { label: 'Français', lang: 'fr' },
+				en: {
+					label: 'English',
+					lang: 'en',
+					sidebar: [
+						{ label: 'Getting Started', link: 'en/getting-started' },
+						{ label: 'Usage', link: 'en/usage' },
+						{ label: 'Configuration', link: 'en/configuration' },
+					],
+				},
+				es: {
+					label: 'Español',
+					lang: 'es',
+					sidebar: [
+						{ label: 'Primeros pasos', link: 'es/getting-started' },
+						{ label: 'Guía de uso', link: 'es/usage' },
+						{ label: 'Configuración', link: 'es/configuration' },
+					],
+				},
+				fr: {
+					label: 'Français',
+					lang: 'fr',
+					sidebar: [
+						{ label: 'Pour commencer', link: 'fr/getting-started' },
+						{ label: 'Guide d\'utilisation', link: 'fr/usage' },
+						{ label: 'Configuration', link: 'fr/configuration' },
+					],
+				},
 			},
 			social: [
 				{ icon: 'github', label: 'GitHub', href: 'https://github.com/amdphreak/transcoder-suite' }
-			],
-			sidebar: [
-				{
-					label: 'Getting Started',
-					link: 'en/getting-started',
-				},
-				{
-					label: 'Usage',
-					link: 'en/usage',
-				},
-				{
-					label: 'Configuration',
-					link: 'en/configuration',
-				},
 			],
 		}),
 	],
