@@ -4,9 +4,6 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	redirects: {
-		'/': '/en/'
-	},
 	integrations: [
 		starlight({
 			title: 'Transcoder Suite',
