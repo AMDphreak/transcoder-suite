@@ -1,3 +1,14 @@
 ---
 ---
-<meta http-equiv="refresh" content="0;url=en/" />
+<head>
+  <script is:inline>
+    // Robust redirect that handles missing trailing slashes on GitHub Pages base path
+    const path = window.location.pathname;
+    if (path.endsWith('/')) {
+      window.location.pathname = path + 'en/';
+    } else {
+      window.location.pathname = path + '/en/';
+    }
+  </script>
+  <meta http-equiv="refresh" content="0;url=en/" />
+</head>
