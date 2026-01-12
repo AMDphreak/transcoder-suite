@@ -1,12 +1,17 @@
 ---
+const redirectUrl = `${import.meta.env.BASE_URL}/en/`.replace(/\/+/g, '/');
 ---
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <script is:inline>
-    // Force redirect to the /en/ subfolder, ensuring we don't drop the base path
-    const base = window.location.pathname.replace(/\/$/, '');
-    window.location.href = base + '/en/';
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content={`0;url=${redirectUrl}`} />
+  <script is:inline define:vars={{ redirectUrl }}>
+    window.location.href = redirectUrl;
   </script>
-  <noscript>
-    <meta http-equiv="refresh" content="0;url=en/" />
-  </noscript>
+  <title>Redirecting...</title>
 </head>
+<body>
+  <p>Redirecting to <a href={redirectUrl}>{redirectUrl}</a></p>
+</body>
+</html>

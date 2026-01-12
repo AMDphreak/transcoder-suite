@@ -3,7 +3,7 @@
 
 This directory contains the source code for the Transcoder Suite documentation site, built with Astro and Starlight.
 
-The live documentation is available at: **https://ryanjohnson.dev/transcoder-suite/**
+The live documentation is available at: **https://amdphreak.github.io/transcoder-suite/**
 
 == 🚀 Getting Started
 

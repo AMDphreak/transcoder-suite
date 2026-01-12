@@ -46,7 +46,7 @@ The main application is located in the `app/` directory.
 
 === Documentation
 
-Detailed documentation is available at link:https://ryanjohnson.dev/transcoder-suite/[ryanjohnson.dev/transcoder-suite/].
+Detailed documentation is available at link:https://amdphreak.github.io/transcoder-suite/[amdphreak.github.io/transcoder-suite/].
 
 To run the documentation site locally:
 
