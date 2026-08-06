@@ -1,17 +1,34 @@
+ifndef::env-github[:icons: font]
+:toc: preamble
+:toclevels: 2
+:sectanchors:
+
+image:https://img.shields.io/github/contributors/AMDphreak/transcoder-suite.svg?style=for-the-badge[Contributors]
+image:https://img.shields.io/github/forks/AMDphreak/transcoder-suite.svg?style=for-the-badge[Forks]
+image:https://img.shields.io/github/stars/AMDphreak/transcoder-suite.svg?style=for-the-badge[Stars]
+image:https://img.shields.io/github/issues/AMDphreak/transcoder-suite.svg?style=for-the-badge[Issues]
+image:https://img.shields.io/github/license/AMDphreak/transcoder-suite.svg?style=for-the-badge[License]
+
 = Transcoder Suite
-:toc: left
-:icons: font
 
-Transcoder Suite is a modular, playbook-driven video transcoding system designed for high-quality archival and batch processing. It provides a robust framework for automating complex transcoding tasks using PowerShell 7 and FFmpeg.
+Modular, playbook-driven video transcoding for high-quality archival and batch processing (PowerShell 7 + FFmpeg).
 
-== Project Goals
+link:https://amdphreak.github.io/transcoder-suite/[Explore the docs] ·
+link:https://github.com/AMDphreak/transcoder-suite/issues[Report Bug] ·
+link:https://github.com/AMDphreak/transcoder-suite/issues[Request Feature]
+
+== About The Project
+
+Transcoder Suite automates complex transcoding with reusable profiles and playbooks, session-based resumable jobs, and a focus on high-efficiency codecs like AV1 and Opus.
+
+=== Project Goals
 
 * **Quality**: Focus on high-bitrate, high-efficiency codecs like AV1 and Opus.
 * **Consistency**: Ensure all media in a collection follows the same encoding standards.
 * **Resilience**: Session-based processing that can be resumed after interruptions.
 * **Automation**: Minimize manual configuration through reusable profiles and playbooks.
 
-== Features
+=== Features
 
 * **Modular Profiles**: Separate video and audio settings into reusable JSON components.
 * **Playbook Orchestration**: Combine profiles into named "Playbooks" for different use cases (e.g., Deep Archival, Mobile Sync).
@@ -20,35 +37,35 @@ Transcoder Suite is a modular, playbook-driven video transcoding system designed
 * **SVT-AV1 Optimized**: Pre-configured for high-efficiency 10-bit AV1 encoding.
 * **Atomic Writes**: Encodes to `.tmp` files to prevent file corruption on interruption.
 
-== Project Structure
+=== Built With
 
-* `app/`: The core transcoding application (PowerShell script, profiles, and playbooks).
-* `docs/`: Starlight-based documentation site.
+* PowerShell 7
+* FFmpeg / FFprobe
+* Starlight (docs site)
 
 == Getting Started
 
-=== Application
+=== Prerequisites
 
-The main application is located in the `app/` directory.
+* Install FFmpeg and FFprobe and ensure they are in your PATH.
+* PowerShell 7+.
 
-. **Prerequisites**:
-** Install FFmpeg and FFprobe and ensure they are in your PATH.
-** PowerShell 7+.
+=== Installation / run
 
-. **Run the converter**:
-+
+Clone the repository, then run the converter from the `app/` directory:
+
 [source,powershell]
 ----
 .\app\convert.ps1
 ----
 
-. **Select a Playbook**: Choose from the available recipes in the `app/playbooks/` directory.
+Select a Playbook from `app/playbooks/`.
 
 === Documentation
 
-Detailed documentation is available at link:https://amdphreak.github.io/transcoder-suite/[amdphreak.github.io/transcoder-suite/].
+Published docs: link:https://amdphreak.github.io/transcoder-suite/[amdphreak.github.io/transcoder-suite/].
 
-To run the documentation site locally:
+Local docs site:
 
 [source,bash]
 ----
@@ -57,22 +74,27 @@ pnpm install
 pnpm dev
 ----
 
-== Directory Structure (App)
+== Usage
 
 * `app/profiles/`: Individual encoder settings (Video/Audio).
 * `app/playbooks/`: Orchestration recipes.
 * `app/convert_jobs/`: Session progress and failure logs (ignored by git).
 * `app/convert.ps1`: The main entry point script.
 
-== Internationalization
+Docs are available in English, Spanish, and French under `docs/`.
 
-The documentation is available in:
-* English
-* Spanish (Español)
-* French (Français)
+== Contributing
 
-See `docs/` for details.
+Fork, branch, and open a pull request. Bug reports and feature requests welcome via GitHub Issues.
 
 == License
 
-This project is licensed under the GNU General Public License v3.0. See the link:LICENSE[LICENSE] file for details.
+GNU General Public License v3.0 — see link:LICENSE[LICENSE].
+
+== Contact
+
+Ryan Johnson — https://twitter.com/amdphreak[@amdphreak]
+
+* Project: https://github.com/AMDphreak/transcoder-suite
+* Docs: https://amdphreak.github.io/transcoder-suite/
+* Site: https://ryanjohnson.dev
